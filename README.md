@@ -6,7 +6,7 @@
        zq.bindKeyEvent($(".aa"),"正则")；
     });
 ```
-*****
+***
 2. zq.tipsbox() 鼠标移上去显示提示
 ```
     zq.tipsbox({
@@ -16,7 +16,7 @@
          align: 'center'          //字体对齐方式
       })
 ```
-**************
+***
 3. zq.addreduce()      数字加减插件    此插件默认限制了只能输入数字 ，可做其他正则限制。       
 ``` 
 zq.addreduce({
