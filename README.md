@@ -1,13 +1,13 @@
 # 将工作中比较常用的组件整合成插件。
 
-## 1. zq.bindKeyEvent() 监听input金额输入，只能输入两位小数
+1. zq.bindKeyEvent() 监听input金额输入，只能输入两位小数
 ```
   $(document).ready(function(){
        zq.bindKeyEvent($(".aa"),"正则")；
     });
 ```
-===========
-## 2. zq.tipsbox() 鼠标移上去显示提示
+*****
+2. zq.tipsbox() 鼠标移上去显示提示
 ```
     zq.tipsbox({
          obj: $(".st_tipsbox"),   //选择器
@@ -16,8 +16,8 @@
          align: 'center'          //字体对齐方式
       })
 ```
-==========  
-## 3. zq.addreduce()      数字加减插件    此插件默认限制了只能输入数字 ，可做其他正则限制。       
+**************
+3. zq.addreduce()      数字加减插件    此插件默认限制了只能输入数字 ，可做其他正则限制。       
 ``` 
 zq.addreduce({
     obj: $(".st_addreduce"),    //调用该方法的选择器
@@ -26,17 +26,16 @@ zq.addreduce({
     reg:/^[0-9]\d*/,            //input的框的限制输入格式
 })
 ```
-=========
-##  4.  zq.countdown()     倒计时插件
+*******
+4.  zq.countdown()     倒计时插件
  ```  
  zq.countdown({
    time:120,                   //倒计时时间
    tip:获取手机验证码           //结束提示语     
 })
 ```
-=====
-
-## 5. 图片上传插件   支持点击放大
+*********
+5. 图片上传插件   支持点击放大
 ```
  zq.imgUpload({                //图片上传插件   支持点击放大
 	obj:$(".imgUpload")
